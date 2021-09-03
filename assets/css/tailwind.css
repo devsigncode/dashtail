@@ -1,0 +1,35 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.alert {
+    @apply w-full py-3 px-6 rounded-md;
+}
+
+.alert-content {
+    @apply w-full flex flex-row;
+}
+
+.alert-links {
+    @apply pt-1 flex flex-wrap;
+}
+
+.badge {
+    @apply inline-block rounded-full pt-0 pb-1 px-3;
+}
+
+.breadcrumb {
+    @apply flex flex-row items-center py-3;
+}
+
+.button {
+    @apply px-4 py-2 rounded-md bg-blue-600 text-sm text-white hover:bg-blue-700 border-2 border-transparent focus:border-blue-200;
+}
+
+.button-circle {
+    @apply w-10 h-10 m-1 rounded-full bg-blue-600 text-sm text-white hover:bg-blue-700 border-2 border-transparent focus:border-blue-200;
+}
+
+.nav-active {
+    @apply bg-blue-200;
+}
